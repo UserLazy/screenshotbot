@@ -79,7 +79,7 @@ class ScreenShotBot(Client):
                                 callback_data=f"sts_bdct+{broadcast_id}",
                             ),
                             InlineKeyboardButton(
-                                text="Cancel!",
+                                text="Cancel",
                                 callback_data=f"cncl_bdct+{broadcast_id}",
                             ),
                         ]
